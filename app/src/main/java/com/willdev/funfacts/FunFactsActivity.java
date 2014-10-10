@@ -15,7 +15,6 @@ import java.util.Random;
 
 public class FunFactsActivity extends Activity {
 
-    public static final String TAG = FunFactsActivity.class.getSimpleName();
 
     private FactBook mFactbook = new FactBook();
     private ColorWheel mColors = new ColorWheel();
@@ -55,9 +54,6 @@ public class FunFactsActivity extends Activity {
         showFactButton.setOnClickListener(listener);
 
 
-        //Toast.makeText(this, "Yay!Our activity was created.", Toast.LENGTH_LONG).show();
-
-        Log.d(TAG, "We're logging from the onCreate Method");
 
     }
 
