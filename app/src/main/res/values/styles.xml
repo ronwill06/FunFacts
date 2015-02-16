@@ -1,8 +1,12 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+           <item name="android:actionBarStyle">@style/Theme.FunFacts.ActionBarColor</item>
+    </style>
+
+    <style name="Theme.FunFacts.ActionBarColor" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#39add1</item>
     </style>
 
 </resources>
